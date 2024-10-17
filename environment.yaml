@@ -1,0 +1,15 @@
+name: bed
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pytorch=2.4.0
+  - seaborn
+  - matplotlib
+  - pandas
+  - mlflow
+  - tqdm
+  - cmdstanpy
+  - pip
